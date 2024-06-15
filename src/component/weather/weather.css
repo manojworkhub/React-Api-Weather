@@ -1,0 +1,81 @@
+*{
+    border: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(219, 219, 219);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.continer{
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius:5px;
+    text-align: center;
+}
+input{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 2px;
+    font-size: 20px;
+    background-color: transparent;
+ 
+}
+.searchbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5px 10px;
+    border: 1px solid rgb(137, 219, 249);
+    transition: all 0.5s ease-out;
+   
+}
+.searchbox:hover{
+    border: 1px solid rgb(185, 236, 255);
+}
+.searchbox img{
+    width: 20px;
+    cursor: pointer;
+   
+}
+img{
+    width: 30%;
+}
+.temp{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 10px;
+}
+.location{
+    font-size: 32px;
+    text-transform: uppercase;
+}
+.country{
+    font-size:20px;
+    text-transform: uppercase;
+    color: rgb(134, 134, 134);
+}
+.latANDlon{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.latANDlon div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.waterSpeed{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+}
